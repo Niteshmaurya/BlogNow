@@ -45,9 +45,7 @@ function Login() {
                     >
                         Sign Up
                     </Link>
-                  {/* <br />  We never share any data to any one  */}
-                  <br /> You can also use dummy email password no otp verification 
-
+                  <br />  We never share any data to any one 
 
         </p>
         {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
