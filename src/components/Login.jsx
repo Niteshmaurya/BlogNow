@@ -45,6 +45,8 @@ function Login() {
                     >
                         Sign Up
                     </Link>
+                  <br />  We never share any data to any one 
+
         </p>
         {error && <p className="text-red-600 mt-8 text-center">{error}</p>}
         <form onSubmit={handleSubmit(login)} className='mt-8'>
